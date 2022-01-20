@@ -1,0 +1,26 @@
+# https://newsboat.org/releases/2.10/docs/newsboat.html
+
+auto-reload			yes
+browser				"firefox %u"
+cleanup-on-quit		yes
+confirm-exit		yes
+download-full-page	no
+download-retries	1
+download-timeout	15
+error-log			"~/.newsboat/error.log"
+history-limit		0
+keep-articles-days	30
+max-items			100
+notify-always		no
+notify-format		"  %n unread articles total"
+notify-program		/usr/bin/notify-send
+ssl-verifyhost		yes
+ssl-verifypeer		yes
+refresh-on-startup	yes
+reload-threads		10
+reload-time			30
+save-path			"~/.newsboat/saved"
+show-read-articles	yes
+show-read-feeds		no
+
+delete-read-articles-on-quit	yes
